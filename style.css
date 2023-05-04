@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+/* start of the top portion */
 .container_one {
     background-color: #1f2937;
     color: white;
@@ -39,7 +40,7 @@ a {
 .bottom_header {
     display: flex;
     align-items: center;
-    gap: 300px;
+    gap: 100px;
 }
 
 .awesome {
@@ -56,11 +57,20 @@ a {
 .top {
     background-color: #3882F6;
     color: white;
-    border-radius: 25%;
+    border-radius: 8px;
+    border: 0px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 30px;
 }
 
 .image {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 400px;
+    height: auto;
 }
+
+/* start of the second portion */
