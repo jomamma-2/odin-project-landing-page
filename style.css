@@ -66,11 +66,43 @@ a {
 }
 
 .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 400px;
     height: auto;
 }
 
 /* start of the second portion */
+.container_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 200px 64px;
+}
+
+.header_two {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    margin-top: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dragon {
+    width: 150px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+
+.image_text {
+    text-align: center;
+}
